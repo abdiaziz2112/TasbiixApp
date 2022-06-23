@@ -1,6 +1,6 @@
 let display = document.querySelector("#initialValue");
 let plus = document.querySelector("#increment");
-let minus = document.querySelector("#decrement");
+//let minus = document.querySelector("#decrement");
 let reset = document.querySelector("#reset");
 let dark = document.querySelector("#dark");
 let light = document.querySelector("#light");
@@ -11,10 +11,10 @@ plus.addEventListener("click", ()=>{
   handleIncreased();
 } )
 
-minus.addEventListener("click", ()=>{
+/* minus.addEventListener("click", ()=>{
   handleDeccreased()
 
-} )
+} )*/
 
 reset.addEventListener("click", ()=>{
   handleReset()
@@ -39,10 +39,10 @@ function handleIncreased(){
   display.innerHTML =num;
 }
 
-function handleDeccreased(){
+/*function handleDeccreased(){
   num = num -1
   display.innerHTML =num;
-}
+}*/
 
 function handleReset(){
   num = 0;
