@@ -1,6 +1,7 @@
 let display = document.querySelector("#initialValue");
-let plus = document.querySelector("#increment");
+
 //let minus = document.querySelector("#decrement");
+let plus = document.querySelector("#increment");
 let reset = document.querySelector("#reset");
 let dark = document.querySelector("#dark");
 let light = document.querySelector("#light");
