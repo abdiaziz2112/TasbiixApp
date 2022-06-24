@@ -13,7 +13,7 @@ plus.addEventListener("click", ()=>{
 } )
 
 /* minus.addEventListener("click", ()=>{
-  handleDeccreased()
+  clickCounter()
 
 } )*/
 
@@ -31,14 +31,11 @@ function nightMode() {
 
 
 
-
-
-
 let num = 0;
-function handleIncreased(){
+/*function handleIncreased(){
   num = num +1
   display.innerHTML =num;
-}
+}*/
 
 /*function handleDeccreased(){
   num = num -1
@@ -49,4 +46,20 @@ function handleReset(){
   num = 0;
   display.innerHTML =num;
 }
+
+
+
+function clickCounter() {
+  if (localStorage.clickcount) {
+    localStorage.clickcount = Number(localStorage.clickcount)+1;
+  } else {
+    localStorage.clickcount = 1;
+  }
+  display.innerHTML = localStorage.clickcount;
+}
+</script>
+
+
+
+
 
