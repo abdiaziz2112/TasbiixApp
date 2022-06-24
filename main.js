@@ -50,6 +50,7 @@ function handleReset(){
 
 
 function clickCounter() {
+clickCounter()
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount)+1;
   } else {
