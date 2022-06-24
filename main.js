@@ -60,7 +60,7 @@ clickCounter()
   }
   display.innerHTML = localStorage.clickcount;
 }
-</script>
+
 
 
 
