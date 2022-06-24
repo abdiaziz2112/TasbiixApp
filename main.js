@@ -8,9 +8,9 @@ let light = document.querySelector("#light");
 let body = document.querySelector("body")
 
 
-/*plus.addEventListener("click", ()=>{
-   clickCounter()
-  ;
+plus.addEventListener("click", ()=>{
+   clickCounter();
+  
 } )
 
 /*minus.addEventListener("click", ()=>{
