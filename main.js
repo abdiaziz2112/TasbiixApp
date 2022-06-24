@@ -1,27 +1,28 @@
 let display = document.querySelector("#initialValue");
 
 //let minus = document.querySelector("#decrement");
-//let plus = document.querySelector("#increment");
+let plus = document.querySelector("#increment");
 let reset = document.querySelector("#reset");
-//let dark = document.querySelector("#dark");
-//let light = document.querySelector("#light");
+let dark = document.querySelector("#dark");
+let light = document.querySelector("#light");
 let body = document.querySelector("body")
 
 
 /*plus.addEventListener("click", ()=>{
-  handleIncreased();
+   clickCounter()
+  ;
 } )
 
-minus.addEventListener("click", ()=>{
-  clickCounter()
+/*minus.addEventListener("click", ()=>{
+  
 
-} )
+} )*/
 
 reset.addEventListener("click", ()=>{
   handleReset()
 
 } )
-*/
+
 
 
 
@@ -32,8 +33,8 @@ function nightMode() {
 
 
 
-/*let clickcount = 0;
-/*function handleIncreased(){
+let clickcount = 0;
+function handleIncreased(){
   clickcount= clickcount +1
   display.innerHTML =clickcount;
 }
@@ -41,7 +42,7 @@ function nightMode() {
 function handleDeccreased(){
   clickcount = clickcount -1
   display.innerHTML = clickcount;
-}*/
+}
 
 function handleReset(){
   clickcount = 0;
