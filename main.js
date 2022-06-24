@@ -9,7 +9,7 @@ let body = document.querySelector("body")
 
 
 plus.addEventListener("click", ()=>{
-   clickCounter();
+   handleIncreased();
   
 } )
 
@@ -51,7 +51,7 @@ function handleReset(){
 
 
 
-function clickCounter() {
+/*function clickCounter() {
 clickCounter()
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount)+1;
@@ -60,7 +60,7 @@ clickCounter()
   }
   display.innerHTML = localStorage.clickcount;
 }
-
+*/
 
 
 
