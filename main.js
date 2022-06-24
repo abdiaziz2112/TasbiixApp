@@ -31,20 +31,20 @@ function nightMode() {
 
 
 
-let num = 0;
+let clickcount = 0;
 /*function handleIncreased(){
-  num = num +1
-  display.innerHTML =num;
+  clickcount= clickcount +1
+  display.innerHTML =clickcount;
 }*/
 
 /*function handleDeccreased(){
-  num = num -1
-  display.innerHTML =num;
+  clickcount = clickcount -1
+  display.innerHTML = clickcount;
 }*/
 
 function handleReset(){
-  num = 0;
-  display.innerHTML =num;
+  clickcount = 0;
+  display.innerHTML =clickcount;
 }
 
 
